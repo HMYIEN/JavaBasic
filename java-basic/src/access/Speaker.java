@@ -1,7 +1,7 @@
 package access;
 
 public class Speaker {
-    int volume;
+    private int volume;   // private 접근 제어자는 모든 외부 호출을 막는다. 클래스 내부에서만 호출 가능
 
     Speaker(int volume) {
         this.volume = volume;
