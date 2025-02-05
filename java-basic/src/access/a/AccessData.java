@@ -19,7 +19,7 @@ public class AccessData {
 
     public void innerAccess() {
         // 여기 안에서는 접근 제어자가 자신의 내부가 됨. 내부 모두 호출 가능
-        System.out.println("내부 호출");ㅠ
+        System.out.println("내부 호출");
         publicField = 100;
         defaultField = 200;
         privateField = 300;
